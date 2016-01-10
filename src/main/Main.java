@@ -374,7 +374,8 @@ public class Main {
 		}
 	}
 	public static void createBody(int mass, double x, double y, double velX, double velY) {
-		bodies.add(new Body(mass, x, y, velX, velY));
+		if(mass >= 0)
+			bodies.add(new Body(mass, x, y, velX, velY));
 	}
 	
 	public static void main(String[] args) {
