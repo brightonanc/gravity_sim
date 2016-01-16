@@ -29,7 +29,7 @@ public class Main {
 	public static final double NaN = Double.NaN;
 	
 	public static final int INIT_WIDTH = 700;
-	public static final int INIT_HEIGHT = 700;
+	public static final int INIT_HEIGHT = 680;
 	
 	public static boolean pressed = false;
 	public static int pressedMass = -1;
